@@ -1,0 +1,89 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: 'Raleway', sans-serif;
+   font-weight: 600;
+   background: #ffffff;
+   background: #3a539b;
+   line-height: 1.9;
+}
+
+.survey-form {
+   padding: 15px 25px;
+}
+
+header {
+   color: #ffffff;
+   padding-top: 10px;
+   text-align: center;
+}
+
+header p {
+   padding-bottom: 20px;
+}
+
+form {
+   border-radius: 20px;
+   width: 40%;
+   margin: auto;
+   background-color: #ffffff;
+   padding: 35px;
+}
+
+.form-section {
+   margin-top: 15px;
+   color: #3a539b;
+}
+
+input, select, textarea {
+   display: inline-block;
+}
+
+input[type="checkbox"] {
+   transform: scale(1.6, 1.6);
+   margin-right: 10px;
+}
+
+input[type="radio"] {
+   transform: scale(1.6, 1.6);
+   margin-right: 10px;
+}
+
+label {
+   display: block;
+   line-height: 2.3rem;
+   color: #3a539b;
+}
+
+#name, #email, #number, #dropdown, #feature, textarea {
+   width: 100%;
+   padding: 10px;
+   border-radius: 5px;
+   font-family: 'Raleway', sans-serif;
+   box-shadow: inset 0px 0px 0px 0px;
+}
+
+.submit-button {
+   display: block;
+   font-family: 'Raleway', sans-serif;
+   font-size: 16px;
+   line-height: 1.8;
+   font-weight: 600;
+   color: #ffffff; 
+   background: #3a539b;
+   border-radius: 7px;
+   border-style: none;
+   text-align: center;
+   margin: auto;
+   width: 50%;
+   margin-top: 10px;
+   padding: 10px;
+}
+
+input:invalid {
+  border: 2px dashed red;
+}
